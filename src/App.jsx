@@ -4,5 +4,5 @@ import Container from './components/Container';
 
 
 ReactDOM.render(
-  <Container />, document.querySelector('#target'),
+  <Container someString='' someNumber={5} />, document.querySelector('#target'),
 );
