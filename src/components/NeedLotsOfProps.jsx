@@ -22,7 +22,7 @@ export default function NeedLotsOfProps() {
 
 // Specifies the default values for props:
 NeedLotsOfProps.defaultProps = {
-  optionalArray: [],
+  optionalArray: ['hey'],
   optionalBool: false,
   optionalFunc: Function.prototype,
   optionalNumber: 7,

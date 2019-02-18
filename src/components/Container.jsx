@@ -11,7 +11,7 @@ const messageInstance = new Message();
 export default function Container() {
   return (
     <NeedLotsOfProps
-      optionalArray={[]}
+      optionalArray={['did']}
       optionalBool={false}
       optionalFunc={Function.prototype}
       optionalNumber={7}
